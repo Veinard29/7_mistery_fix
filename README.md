@@ -1,8 +1,9 @@
-# Решатель квадратных уравнений
+# Solver of quadratic equations
 
 This project is designed to solve quadratic equations
 
-# Как использовать
+# How to use
+
 
 
 #####def get_roots(a, b, c)
@@ -23,18 +24,18 @@ def get_roots(a, b, c):
             return root1, root2
 
 ```
-# Как запустить
+# How to start
 
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
+The script requires the installed Python interpreter version 3.5
 
-Запуск на Linux:
+Running on Linux:
 
 ```bash
 python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
 ```
 
-Запуск на Windows происходит аналогично.
+the launch on Windows is similar.
 
-# Цели проекта
+# Project Objectives
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+The code was created for educational purposes. In the framework of the training course on web development ― [DEVMAN.org](https://devman.org)
