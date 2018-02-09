@@ -4,27 +4,20 @@ This project is designed to solve quadratic equations
 
 # How to use
 
-
-
-#####def get_roots(a, b, c)
-This function calculates the discriminant and finds the roots finds the roots of the quadratic equation. arguments. numerical.
+Firstly, import our function from quadratic_equation.py
+```python
+from quadratic_equation import get_roots
 ```
-def get_roots(a, b, c):
-    discriminant = b ** 2 - 4 * a * c
-    if discriminant < 0:
-        root1 = (-b - cmath.sqrt(discriminant)) / (2 * a)
-        root2 = (-b + cmath.sqrt(discriminant)) / (2 * a)
-        return None, None
-    else:
-        root1 = (-b - sqrt(discriminant)) / (2 * a)
-        root2 = (-b + sqrt(discriminant)) / (2 * a)
-        if discriminant == 0:
-            return root1, None
-        else:
-            return root1, root2
 
-```
-# How to start
+Then, run our function
+
+```python
+a = -1
+b = 2
+c = 3
+answer = get_roots(a, b, c) # (3.0, -1.0)
+``` 
+# Run tests
 
 The script requires the installed Python interpreter version 3.5
 
